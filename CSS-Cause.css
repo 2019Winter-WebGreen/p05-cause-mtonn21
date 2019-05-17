@@ -1,0 +1,41 @@
+/*
+* Maddie Tonn 
+* May 19, 2019 
+* Why Recycling is important and littering is bad 
+*/
+
+/* The universal selector */
+
+* {
+
+/* Margin and padding of the whole page */
+margin:0;
+padding:0;
+}
+
+/* Body attributes here */
+
+body {
+ /* Color of background */
+ background-color: lightcyan;
+}
+
+/* Formatting, style, margin, and padding of all the different text sections */
+header { border-bottom: 5px solid green; padding-bottom: 25px; text-align: center; }
+h1 { color: green; font-family: sans-serif; margin-top: 10px; }
+main { margin-top: 10px; font-size: 16px }
+h2 { margin-top: 15px; margin-bottom: 10px; margin-left: 10px; color: blue; font-family: monospace; }
+p { margin-left: 10px; margin-top: 10px; margin-bottom: 10px; }
+footer { border-top: 5px solid green; padding-top: 25px; clear: both; }
+ul { margin-left: 10px; margin-bottom: 20px; }
+
+/* Formatting and style of all the images */
+#image1 { float: left; width: 200px; height: 150px; margin: 9px; border: 2px solid black; }
+#image2 { float: left; width: 200px; height: 150px; margin: 9px; border: 2px solid black; }
+#image3 { float: left; width: 200px; height: 150px; margin: 9px; border: 2px solid black; }
+#image4 { float: left; width: 200px; height: 150px; margin: 9px; border: 2px solid black; }
+#image5 { float: left; width: 200px; height: 150px; margin: 9px; border: 2px solid black; }
+#image6 { float: left; width: 200px; height: 150px; margin: 9px; border: 2px solid black; }
+#image7 { float: left; width: 150px; height: 200px; margin: 9px; border: 2px dashed black; }
+#image8 { float: right; width: 300px; height: 250px; margin: 9px; border: 7px dotted black; }
+#nofloat { clear: both; }
